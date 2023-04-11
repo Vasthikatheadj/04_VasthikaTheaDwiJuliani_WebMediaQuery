@@ -1,0 +1,185 @@
+body
+{
+    margin-bottom: 10%;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    /* background-color: bisque; */
+    background: url(images/bg.jpg);
+}
+#nav
+{
+    width: 100%;
+    padding: 13px 0 13px 0;
+    background: linear-gradient(to right, Gray, #E0E7E9);
+    color: white;
+    float: left;
+    border-radius: 13px;
+}
+#nav a
+{
+    align-items: center;
+    padding-right: 3%;
+}
+#content h1, #content p, #content iframe
+{
+    padding-left: 3%;
+}
+#sidebar p, #sidebar h1, #flickr h1, #flickr img
+{
+    padding-left: 5%;
+}
+#content 
+{
+    width: 65%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px 0 10px 0;
+    float: left;
+    background-color: white;
+    border-radius: 13px;
+}
+#content p
+{
+    margin-bottom: 0px;
+}
+#content h1
+{
+    margin-bottom: 10px;
+}
+#content img
+{
+    padding-top: 2%;
+    padding-left: 3%;
+    width: 93%;
+    height: 250px;
+}
+#content iframe
+{
+    width: 93%;
+    height: 500px;
+    padding-bottom: 10px;
+}
+#sidebar
+{
+    float: right;
+    width: 33%;
+    background-color: white;
+    margin-top: 25px;
+    padding: 10px 0 10px 0;
+    border-radius: 13px;
+}
+#flickr 
+{
+    float: right;
+    width: 33%;
+    background-color: white;
+    margin-top: 25px;
+    padding: 10px 0 20px 0;
+    border-radius: 13px;
+}
+#flickr img
+{
+    width: 18%;
+    padding-bottom: 15px;
+}
+form
+{
+    margin-right: 1%;
+    display: flex;
+    /* align-items: center;
+    position: relative;; */
+    border-radius: 13px;
+}
+input[type="text"] 
+{
+    height: 17px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+input[type="text"]::placeholder 
+{
+    color: #ccc;
+}
+input[type="text"]:focus 
+{
+    outline: none;
+}
+@media screen and (max-width: 1200px) 
+{
+    body
+    {
+        width: 100%;
+    }
+    #nav
+    {
+        width: 97%;
+    }
+    #sidebar
+    {
+        margin-right: 30px;
+        padding-right: 10px;
+        width: 28%;
+    }
+    #content iframe
+    {
+        width: 93%;
+        height: 300px;
+    }
+    #flickr 
+    {
+        margin-right: 30px;
+        padding-right: 10px;
+        width: 28%;
+    }
+    #flickr img
+    {
+        width: 25%;
+    }
+}
+@media screen and (max-width: 896px) 
+{
+    body
+    {
+        width: 100%;
+    }
+    form
+    {
+        margin-right: 20px;
+    }
+    #nav
+    {
+        width:96%;
+    }
+    #content
+    {
+        width: 96%;
+        margin-bottom: 7px;
+    }
+    #content iframe
+    {
+        width: 93%;
+        height: 300px;
+    }
+    #sidebar
+    {
+        width: 94%;
+        float: left;
+        margin-top: 10px;
+    }
+    #flickr
+    {
+        float: left;
+        width: 94%;
+        margin-top: 17px;
+        margin-bottom: 20px;
+    }
+    #flickr img
+    {
+        width: 10%;
+        padding: 0px;
+        padding-left: 5%;
+        padding-bottom: 5%;
+    }
+}
